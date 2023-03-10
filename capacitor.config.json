@@ -1,0 +1,23 @@
+{
+    "appId": "com.greenlight.freshmyanmar",
+    "appName": "FreshMyanmar",
+    "bundledWebRuntime": false,
+    "webDir": "dist",
+    "npmClient": "npm",
+    "server": {
+      
+      "hostname": "app",
+      "androidScheme": "https"
+    },
+    "plugins": {
+      "CapacitorFirebaseAuth": {
+        "providers": ["phone"],
+        "languageCode": "en",
+        "nativeAuth": false
+      },
+      "SplashScreen": {
+        "showSpinner": true
+      }
+    }
+  }
+  
